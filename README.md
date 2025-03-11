@@ -8,6 +8,10 @@ untuk menginisiasi database
 ## Akun
 pada saat migrate tentu isi dari data tidak ada oleh karena itu untuk membuat akun pertama kali bisa menjalankan command prompt ini
 ```
+php artisan tinker
+```
+lalu 
+```
 use App\Models\Account;
 Account::create([
     'username' => 'admin',
